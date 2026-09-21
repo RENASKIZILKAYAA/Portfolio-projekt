@@ -14,13 +14,25 @@ body {
     width: 70px;
 }
 
-.project-image {
-    width: 300px;
+.project-images {
+    padding: 0;
+    list-style: none;
     margin: 15px 0;
 }
 
-.flag-icon {
-    width: 50px;
+.project-images li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.project-image {
+    width: 100%;
+    margin: 0;
+}
+
+.coding-icon {
+    width: 200px;
     display: block;
     margin: 0 auto 20px auto;
 }
@@ -33,6 +45,7 @@ main {
 nav {
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Archivo Black', Arial, sans-serif;
 }
 
 nav a {
@@ -44,10 +57,15 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: lightgray;
+}
+
+nav a:hover {
+    text-decoration-style: wavy;
 }
 
 h1 {
-    font-family: Georgia, serif;
+    font-family: 'Archivo Black', Arial, sans-serif;
     text-align: center;
     color: lightgray;
 }
@@ -56,14 +74,15 @@ h2 {
     color: lightgray;
     margin-top: 30px;
     font-size: 28px;
-    font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Archivo Black', Arial, sans-serif;
+    letter-spacing: 1px;
 }
 
 h3 {
     color: lightgray;
     margin-top: 20px;
     font-size: 20px;
+    font-family: 'Archivo Black', Arial, sans-serif;
 }
 
 section {
@@ -86,6 +105,11 @@ p, ul, ol {
 
 li {
     margin-bottom: 15px;
+}
+
+
+strong {
+    font-family: 'Archivo Black', Arial, sans-serif;
 }
 
 footer {
